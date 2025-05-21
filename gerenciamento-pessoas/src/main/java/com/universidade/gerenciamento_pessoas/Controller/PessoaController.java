@@ -42,7 +42,7 @@ public class PessoaController {
         return ResponseEntity.noContent().build();
     }
 
-    // GET com filtro por nome e idade
+
     @GetMapping("/buscar")
     public ResponseEntity<List<Pessoa>> buscarPorNomeEIdade(
             @RequestParam String nome,
